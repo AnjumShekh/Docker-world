@@ -22,7 +22,7 @@ jobs:
         run: docker build -t hello-world-app .
 
       - name: Tag Image
-        run: docker tag hello-world-app yourdockerhubusername/hello-world-app:latest
+        run: docker tag hello-world-app anjumshekh000/hello-world-app:latest
 
       - name: Push to DockerHub
-        run: docker push yourdockerhubusername/hello-world-app:latest
+        run: docker push anjumshekh000/hello-world-app:latest
